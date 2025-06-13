@@ -1,12 +1,41 @@
-# React + Vite
+🚀 Proyecto React con Vite - Hello World Interactivo
+- 
+- Una aplicación React simple creada con Vite que demuestra el manejo de estado y eventos entre componentes.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✨ Características principales
+- 
+- ✅Componente principal que muestra "Hello World"
+- ✅Botón que modifica el mensaje al hacer clic
+- ✅Deshabilitación del botón después del primer clic
+- ✅Mensaje adicional "(from changed state)"
+- ✅Arquitectura limpia con componentes separados
 
-Currently, two official plugins are available:
+🛠️ Tecnologías utilizadas
+- 
+- React 18
+- Vite 4
+- JavaScript ES6+
+- CSS Modules (opcional)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+▶️ Cómo ejecutar el proyecto
+- 
+- 1- Clona el repositorio:
+````
+git clone https://github.com/Lucaspozziok64/helloWorldConState.git
+````
+- 2- Instala las dependencias:
+````
+npm install
+````
+- 3- Inicia el servidor de desarrollo:
+````
+npm run dev
+````
+####
+📌 Requisitos
+-
+- Node.js v16+
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👨‍💻 Autor
+-
+- Lucas Figueroa 
