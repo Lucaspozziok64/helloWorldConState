@@ -1,10 +1,13 @@
+import { Button } from 'react-bootstrap';
 import './App.css'
+import HelloWorldState from './components/HelloWorldState'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
   return (
-    <main>
-      <h1>Hello World!</h1>
+    <main className='text-center'>
+      <HelloWorldState />
     </main>
   )
 }
