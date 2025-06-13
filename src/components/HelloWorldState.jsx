@@ -8,7 +8,6 @@ const HelloWorldState = () => {
 
   const texto = '(from changed state)!'
   const agregarMensaje = () => {
-    console.log('Aqui debo agregar el mensaje')
     setMensajes(mensaje + texto)
     console.log(mensaje)
     setBotons(true)
